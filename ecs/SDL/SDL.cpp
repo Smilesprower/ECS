@@ -41,10 +41,8 @@ int main(int argc, char** argv)
 	RenderSystem rs;
 	ControlSystem cs;
 
-	as.addEntity(player);
 	rs.addEntity(player);
 	cs.addEntity(player);
-
 
 	as.addEntity(alien);
 	rs.addEntity(alien);
